@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#e66465, #9198e5);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+
+}
+form {
+    padding-bottom: 10px;
+}
+
+
+h1, form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toDo {
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.button_text {
+    padding: 3px;
+}
+
+.to_do_div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    background: #e66465;
+
+    
+    
+
+}
+
+.done_button, .delet_button {
+    margin-right: 5px;
+    padding: 5px;
+    color: white;
+    border: none;
+   
+   
+
+
+}
+.done_button {
+    background-color:  #77b18f;
+}
+
+.delet_button {
+    background-color: rgb(223, 112, 140);
+}
+.to_do_li {
+    color: white;
+    list-style-type: none;
+    font-size:2 rem;
+    margin-right: 5px;
+    display: block;
+    padding-top: 4px;
+}
+
+.baigta {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
